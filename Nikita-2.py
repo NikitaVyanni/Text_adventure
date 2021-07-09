@@ -108,15 +108,15 @@ try:
                                 # фейлы
                                 if guide == 2:
                                     wordprint("Демоны первого круга приняли вас за грешника. Теперь вы вечно скорбите. Конец.")
-                                    break
+                                    titres()
                             if price == 2:
                                 wordprint("Человек отказал вам в переправе.")
                                 river = 2
                                 wordprint("Вам нечем заплатить за переправу.")
-                                break
+                                titres()
                         if river == 2:
                             wordprint("Вы попробовали переплыть реку и всё забыли. Конец.")
-                            break
+                            titres()
 
                     if trashure == 2:
                         wordprint("Вы нашли проход в подземелье.")
